@@ -1,0 +1,15 @@
+{
+    "name": "root/random-fb",
+    "authors": [
+        {
+            "name": "Ricky Andhi",
+            "email": "ricky10andika@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"App\\" : "src/"
+    	}
+    }
+}
