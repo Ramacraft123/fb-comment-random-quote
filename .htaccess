@@ -4,6 +4,9 @@
     </IfModule>
 
     RewriteEngine On
+    
+    RewriteCond %{HTTP_HOST} ^www\.quote-kak-seto\.tk [NC]
+    RewriteRule ^(.*)$ http://quote-kak-seto.tk/$1 [L,R=301]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
