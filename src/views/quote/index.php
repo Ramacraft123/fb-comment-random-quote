@@ -34,7 +34,7 @@
                 </form>
             </div>
             <div class="col-md-12">
-                <table class="table table-bordered table-default table-hover">
+                <table class="table table-bordered table-default table-hover table-responsive">
                     <thead>
                         <tr>
                             <th>Judul</th>
